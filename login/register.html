@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Registro</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <h1>Registro</h1>
+  <input type="text" placeholder="Nombre">
+  <input type="email" placeholder="Correo">
+  <input type="password" placeholder="Contraseña">
+  <a href="#" id="registerBtn" class="btn">Registrarse</a>
+  <p>o <a href="login.html">Iniciar sesión</a></p>
+</div>
+
+<script>
+document.getElementById('registerBtn').addEventListener('click', function(e){
+  e.preventDefault(); // evita que el # suba al inicio de la página
+  // Redirige al index.html de la IA Nova
+  window.location.href = 'ia/index.html';
+});
+</script>
+</body>
+</html>

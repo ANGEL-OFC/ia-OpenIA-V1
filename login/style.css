@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  background:#111;
+  color:#fff;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  min-height:100vh;
+  margin:0;
+}
+
+.container {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:10px;
+  width:90%;
+  max-width:400px;
+}
+
+h1 { margin-bottom:20px; }
+
+button {
+  padding:10px 20px;
+  border-radius:8px;
+  border:none;
+  font-weight:bold;
+  cursor:pointer;
+  transition:0.2s;
+  width:100%;
+}
+
+.google { background:#db4437; color:white; }
+.facebook { background:#3b5998; color:white; }
+.github { background:#333; color:white; }
+
+input {
+  width:100%;
+  padding:10px;
+  border-radius:8px;
+  border:none;
+  background:#222;
+  color:white;
+  outline:none;
+}
